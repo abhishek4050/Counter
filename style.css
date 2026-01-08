@@ -1,0 +1,47 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+.box{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;    
+align-items: center;
+
+
+}
+.container{
+width: 500px;
+height: 50vh;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+gap: 10px;
+background-color: bisque;
+border: 3px solid black;
+border-radius: 10%;
+}
+
+#increase{
+font-size: 50px;
+background-color: green;
+color: whitesmoke;
+}
+#decrease{
+font-size: 50px;
+background-color: red;
+color: whitesmoke;
+
+}
+#heading{
+    font-family: 'Courier New', Courier, monospace;
+}
+#theme{
+background-color: aquamarine;}
+.dark{
+background-color: grey;
+}
